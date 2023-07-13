@@ -27,7 +27,8 @@
 
 .login {
     display: flex;
-    list-style: none;   
+    list-style: none;  
+    align-items: center; 
 }
 
 .login .signin {
@@ -66,7 +67,7 @@ a.btn:hover {
 }
 .hero-container {
     background: url("../../assets/background.png");
-    // height: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,4 +126,95 @@ a.btn:hover {
     font-family: "Montserrat", sans-serif;
     border: none;
 }
+}
+
+.brands-section {
+    padding: 80px 90px;
+}
+
+.brands-section .brands-container img {
+    height: 20px;
+}
+
+.brands-section .brands-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brands-section h2,
+section h2{
+    font-size: 22px;
+    font-family: "montserrat",sans-serif;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.card {
+    border-bottom-right-radius: 45px;
+}
+.card-text {
+    text-align: left;
+}
+.ar-brand {
+    text-align: center;
+    color: #3734a9;
+    font-size: 14px;
+}
+.choose-us {
+    text-align: left;
+    color: #3734a9;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.para {
+    color: #767195;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 20px;
+}
+
+// .checked-icon {
+//     display: flex;
+// }
+
+.checked {
+    height: 20px;
+    position: absolute;
+    margin-top: 3px;
+}
+
+.portfolio-title {
+    color: #767195;
+    padding-left: 30px;
+}
+.payment-title {
+    font-size: 38px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 80px;
+}
+
+.sub-para {
+    padding-left: 80px;
+    color: #767195;
+}
+
+.list-icon {
+    position: absolute;
+}
+
+.h1 {
+    text-align: left;
 }
