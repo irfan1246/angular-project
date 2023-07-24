@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Manrope";
     padding: 2px 30px;
     position: fixed;
     width: 90%;
@@ -74,13 +74,13 @@ a.btn:hover {
 }
 
 .hero-container .left{
-    margin-top: 20%;
+    // margin-top: 20%;
 }
 
 .hero-container .left p {
     color: #848198;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Manrope";
     padding: 10px;
 }
 
@@ -90,7 +90,7 @@ a.btn:hover {
 
 .hero-container .left .sub{
     font-size: 48px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Manrope";
     text-align: center;
 }
 
@@ -105,12 +105,14 @@ a.btn:hover {
     background: #4f46ba;
     color:#FFF;
     border-radius: 7px;
-    padding: 14px 30px;
+    // padding: 14px 30px;
     text-decoration: none;
     font-weight: bold;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Manrope";
     font-size: 14px;
+    padding: 25px 0 25px 0;
     border: none;
+    min-width: 171px;
 
 }
 
@@ -118,13 +120,14 @@ a.btn:hover {
     color: #4f46ba;
     background:#f7f9fb;
     border-radius: 7px;
-    padding: 14px 30px;
+    padding: 25px 0 25px 0;
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
     margin-left: 20px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Manrope";
     border: none;
+    min-width: 171px;
 }
 }
 
@@ -138,8 +141,9 @@ a.btn:hover {
 
 .brands-section .brands-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    column-gap: 70px;
 }
 
 .brands-section h2,
@@ -196,18 +200,18 @@ section h2{
 }
 .payment-title {
     font-size: 38px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Manrope";
     text-align: center;
 }
 
 .sub-title {
     font-size: 16px;
     font-weight: bold;
-    padding-left: 80px;
+    padding-left: 90px;
 }
 
 .sub-para {
-    padding-left: 80px;
+    padding-left: 90px;
     color: #767195;
 }
 
@@ -217,4 +221,24 @@ section h2{
 
 .h1 {
     text-align: left;
+}
+
+.boxing {
+    margin-left: 30px;
+}
+
+.lead2 {
+    padding-top: 20px;
+}
+
+.lead {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.small-card {
+    margin: 25px 0px 0px 0px;
+    border: 1px solid rgba(207, 207, 207, 1) ;
+    border-bottom-right-radius: 40px;
+    padding: 10px;
 }
